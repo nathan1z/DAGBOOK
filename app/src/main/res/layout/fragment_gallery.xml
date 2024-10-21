@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controlador.ui.calendar.GalleryFragment"
+    android:background="@drawable/background_page"
+    >
+
+
+    <ScrollView
+        android:id="@+id/formprospect"
+        android:layout_width="match_parent"
+        android:layout_height="272dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_target">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/bEventos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="90dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_btn"
+                android:text="Eventos" />
+
+            <Button
+                android:id="@+id/bRutas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="90dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_btn"
+                android:text="Rutas" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageViewCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:layout_above="@+id/formprospect"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="60dp"
+        app:srcCompat="@drawable/baseline_calendar_month_24" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_above="@+id/formprospect"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="60dp"
+        app:srcCompat="@drawable/baseline_calendar_month_24" />
+
+</RelativeLayout>

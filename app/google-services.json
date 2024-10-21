@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "162301444780",
+    "project_id": "dagbook-ffb7e",
+    "storage_bucket": "dagbook-ffb7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162301444780:android:68db5be58152759f085509",
+        "android_client_info": {
+          "package_name": "com.example.dagbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162301444780-st79ieinpe4mk207pe1t1su0j9fg09ef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt7SxxOswtFPQjH2TCLVyBiODeWWINFLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162301444780-st79ieinpe4mk207pe1t1su0j9fg09ef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
